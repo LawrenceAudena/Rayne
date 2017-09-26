@@ -1,0 +1,19 @@
+{
+  "name": "rayne",
+  "version": "0.0.1",
+  "description": "vue app for creating the best things on earth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LawrenceAudena/Rayne.git"
+  },
+  "author": "Lars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawrenceAudena/Rayne/issues"
+  },
+  "homepage": "https://github.com/LawrenceAudena/Rayne#readme"
+}
