@@ -16,6 +16,11 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     res.send('this is the server page');
 });
+app.post('/register', (req, res) => {
+    res.send({
+        message: `this is the post page and passed info: ${req.body.other}`
+    });
+});
 
 app.listen(process.env.PORT || 4700, () => {
     console.log('the server has started on port 4700');
