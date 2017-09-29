@@ -1,6 +1,6 @@
-import api from '@/services/autho'
+import api from '@/services/api'
 
-export default () => {
+export default {
   register(credentials) {
     return api().post('register', credentials);
   }
